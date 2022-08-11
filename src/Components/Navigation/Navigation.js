@@ -10,12 +10,11 @@ const Nav = () => {
     ];
     let [open,setOpen]=useState(false);
   return (
-    <div className='fixed top-0 left-0 w-full shadow-md'>
+    <div className='fixed top-0 left-0 w-full bg-white'>
       <div className='items-center justify-between py-4 bg-white md:flex md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
         <span className='pt-2 mr-1 text-3xl text-orange-600'>
-        <ion-icon name="logo-ionic"></ion-icon>
         </span>PRAG<span className='text-orange-600'>MATE</span>
       </div>
       
@@ -27,7 +26,7 @@ const Nav = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='text-xl md:ml-8 md:my-0 my-7'>
-              <a href={link.link} className='text-orange-800 duration-500 hover:text-orange-400'>{link.name}</a>
+              <a href={'#'+link.link} >{link.name}</a>
             </li>
           ))
         }
