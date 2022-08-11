@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn1{
+	@apply text-white bg-orange-600 font-[Poppins] py-1 px-4 rounded md:ml-8 hover:bg-green-400 
+    duration-500
+}
+.btn2{
+    @apply text-orange-600 border-orange-600 border font-[Poppins] py-1 px-4 rounded md:ml-8 hover:bg-green-400 
+    duration-500
+}
