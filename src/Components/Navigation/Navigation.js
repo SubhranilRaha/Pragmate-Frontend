@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Icon from './icon.png'
 
 
 const Nav = () => {
@@ -12,8 +13,9 @@ const Nav = () => {
   return (
     <div className='fixed top-0 left-0 w-full bg-white'>
       <div className='items-center justify-between py-4 bg-white md:flex md:px-10 px-7'>
-      <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
+      <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins]  
       text-gray-800'>
+        <img src={Icon} className='h-8 mr-2' alt='' />
         <span className='pt-2 mr-1 text-3xl text-orange-600'>
         </span>PRAG<span className='text-orange-600'>MATE</span>
       </div>
