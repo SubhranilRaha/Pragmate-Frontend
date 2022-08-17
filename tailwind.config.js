@@ -20,7 +20,8 @@ module.exports = {
         'daltxt': '#d5d5e2', 
       },
       fontSize:{
-        'cus':'1.614rem'
+        'cus':'1.614rem',
+        'cus2':'2rem'
       },
       fontWeight:{
         'cus':'790'
