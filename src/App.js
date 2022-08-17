@@ -5,6 +5,7 @@ import Contact from './Components/Contact/Contact'
 import Home from './Components/Home/Home'
 import Partners from './Components/Partners/Partner'
 
+
 function App() {
   return (
     <div>
