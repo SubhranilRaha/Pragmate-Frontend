@@ -3,13 +3,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     fontFamily: {
-      sans: ['Poppins', 'sans-serif'],
+      pops: ['Poppins', 'sans-serif'],
     },
     extend: {
       colors: {
         'first': '#F45502', 
         'alt': '#FF9900', 
-        'bg': '#e2e0e6', 
+        'bgbody':'#f3f6fd',
+        'bg': '#f8fafc', 
         'dbg': '#2a2a35', 
         'body': '#ffffff', 
         'sbody': '#414353', 
@@ -18,6 +19,12 @@ module.exports = {
         'dtxt': '#cccdd0', 
         'daltxt': '#d5d5e2', 
       },
+      fontSize:{
+        'cus':'1.614rem'
+      },
+      fontWeight:{
+        'cus':'790'
+      }
     },
   },
   plugins: [],

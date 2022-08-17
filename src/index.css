@@ -6,12 +6,26 @@
     html {
         scroll-behavior: smooth;
     }
-    .btn1{
-        @apply text-white bg-orange-600 font-[Poppins] py-1 px-4 rounded md:ml-8 hover:bg-green-700 
-        duration-500
+    .center{
+        @apply flex justify-center items-center
     }
-    .btn2{
-        @apply text-orange-600 border-orange-600 border font-[Poppins] py-1 px-4 rounded md:ml-8 hover:text-green-700  hover:border-green-700 
-        duration-500
+    .navstyle{
+        @apply flex flex-col justify-center items-center 
     }
+    .icon{
+        transition:0.5s;
+        @apply block text-3xl translate-y-2 
+    }
+    
+    .text{
+        transition:0.5s;
+        @apply  font-semibold text-txt -translate-y-3 opacity-0
+    }
+    li.active a .text {
+        @apply transform -translate-y-5 opacity-100
+    }
+    li.active a .icon {
+        @apply transform -translate-y-6 text-white bg-first py-2 px-3 rounded-full
+    }
+    
 }
