@@ -15,7 +15,7 @@
     .icon{
         transition:0.5s;
         @apply block text-3xl translate-y-2 
-    }
+    } 
     
     .text{
         transition:0.5s;
@@ -27,5 +27,7 @@
     li.active a .icon {
         @apply transform -translate-y-6 text-white bg-first py-2 px-3 rounded-full
     }
-    
+    .min-height-75{
+        min-height:670px;
+    }
 }

@@ -5,7 +5,7 @@ import icon from './logo.png'
 function Homenav() {
     const[show,setShow]=useState(false)
   return (
-    <div className="sticky top-0 bg-white" >
+    <div className="sticky top-0 z-50 bg-white" >
         <nav id='mobileview' className='lg:hidden'>
             <div className="flex flex-row justify-between">
             <div className="">
@@ -24,7 +24,7 @@ function Homenav() {
             </div>
             <div>
                 {
-                    show?<ul className='flex flex-col justify-center pb-8 text-xl shadow-lg rounded-3xl pl-14 font-pops'>
+                    show?<ul className='flex flex-col justify-center pb-6 text-xl shadow-lg border-y-8 pl-14 font-pops'>
                     <li className="py-3 pt-5 hover:text-first">
                         <i class="uil uil-estate pr-2"></i>
                         <a href="#" className="">HOME</a></li>
@@ -39,12 +39,10 @@ function Homenav() {
                         <a href="#" className="">CONTACT</a></li>
                     <div className='flex flex-row pt-5 justify-betweem'>
                         <div className="hover:text-orange-500">
-                        <button className="flex justify-center w-32 py-1 mr-5 -translate-x-2 border-2 hover:border-first rounded-3xl group active:scale-95"><a href="#" className="text-base font-semibold text-slate-400 group-hover:text-orange-500 ">LOG IN</a></button>
+                        <button className="flex justify-center w-32 py-1 mb-3 mr-5 border-2 hover:border-first rounded-xl group active:scale-95"><a href="#" className="text-base font-semibold text-slate-400 group-hover:text-orange-500">LOG IN</a></button>
                         </div>
-                        
-                        <button className="flex items-center justify-center w-32 py-1 rounded-3xl hover:text-first bg-first hover:bg-orange-500 active:scale-95"><a href="#" className="text-base font-semibold text-white ">SIGN IN</a></button>
+                        <button className="flex items-center justify-center w-32 h-9 rounded-xl hover:text-first bg-first hover:bg-orange-500 active:scale-95"><a href="#" className="text-base font-semibold text-white ">SIGN IN</a></button>
                     </div>
-                   
                 </ul>:null
                 }
             </div>
