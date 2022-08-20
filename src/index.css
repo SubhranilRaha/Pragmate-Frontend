@@ -28,6 +28,6 @@
         @apply transform -translate-y-6 text-white bg-first py-2 px-3 rounded-full
     }
     .min-height-75{
-        min-height:670px;
+        min-height:600px;
     }
 }
