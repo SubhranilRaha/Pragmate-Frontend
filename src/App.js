@@ -7,7 +7,6 @@ import MobNav from './Components/Nav/bottomobnav'
 import TopNav from './Components/Nav/dashtopnav'
 import HomeNav from './Components/Nav/homenav'
 import Login from './Components/LogIn/Login'
-import Dashboard from './Components/Dashboard/Dashboard'
 
 
 
@@ -15,8 +14,7 @@ function App() {
   return (
     <div >
       <HomeNav/>
-      <Dashboard/>
-      <Login/>
+      {/* <Login/> */}
       {/* <TopNav/> */}
       {/* <Home/>
       <Partners/>
