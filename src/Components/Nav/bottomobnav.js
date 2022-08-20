@@ -14,9 +14,9 @@ function Mobnav() {
 
     
   return (  
-    <div className='flex flex-col justify-end h-screen '>
+    <div className='flex flex-col justify-end h-screen w-full absolute bottom-0'>
        
-        <div id="bottomnavbar" className="lg:hidden md:hidden navigation">
+        <div id="bottomnavbar" className="lg:hidden navigation">
         <ul className="flex items-center justify-around pt-3 pb-2 bg-white shadow-inner rounded-t-xl h-14 font-pops -z-20">
              
             <li  className="z-10 list active">
