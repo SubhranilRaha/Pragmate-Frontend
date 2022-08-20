@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import icon from './logo.png'
+import { Link } from 'react-router-dom'
 
 
 function Homenav() {
@@ -39,7 +40,7 @@ function Homenav() {
                         <a href="#" className="">CONTACT</a></li>
                     <div className='flex flex-row pt-5 justify-betweem'>
                         <div className="hover:text-orange-500">
-                        <button className="flex justify-center w-32 py-1 mb-3 mr-5 border-2 hover:border-first rounded-xl group active:scale-95"><a href="#" className="text-base font-semibold text-slate-400 group-hover:text-orange-500">LOG IN</a></button>
+                        <button className="flex justify-center w-32 py-1 mb-3 mr-5 border-2 hover:border-first rounded-xl group active:scale-95"><Link to="/login" className="text-base font-semibold text-slate-400 group-hover:text-orange-500">LOG IN</Link></button>
                         </div>
                         <button className="flex items-center justify-center w-32 h-9 rounded-xl hover:text-first bg-first hover:bg-orange-500 active:scale-95"><a href="#" className="text-base font-semibold text-white ">SIGN IN</a></button>
                     </div>

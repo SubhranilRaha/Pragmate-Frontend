@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
+import { Link } from 'react-router-dom'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -75,7 +76,7 @@ export default function Login() {
                               <div class="flex justify-end">
                                   <a href="#" class="text-sm text-orange-600 hover:text-orange-700 hover:underline mb-6">Forgot your password?</a>
                               </div>
-                              <button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">Log In</button>
+                              <button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit"><Link to="/student">Log In</Link></button>
                           </form>
                       </section>
                   </main>

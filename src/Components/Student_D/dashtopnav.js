@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from './logo.png'
+import icon from '../Home/logo.png'
 
 function topnav() {
   return (
@@ -17,7 +17,7 @@ function topnav() {
                 <i class="hidden lg:block md:block uil uil-moon mr-2 text-3xl"></i>
                 <i class="hidden lg:block md:block uil uil-user-circle mr-2 text-3xl"></i>  
             </div>
-        </div> 
+        </div>
     </div>
   )
 }
