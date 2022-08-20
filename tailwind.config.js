@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",
+],
   theme: {
     fontFamily: {
-      pops: ['Poppins', 'sans-serif'],
+      pops: ['Poppins','sans-serif'],
     },
     extend: {
       colors: {
@@ -28,5 +29,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
