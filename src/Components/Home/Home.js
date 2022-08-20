@@ -4,7 +4,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 function Home() {
 
   return (
-    <div className='relative min-h-screen w-96'>
+    <div className='min-h-screen w-96 absolute translate-y-20'>
       <div className="flex items-center justify-center ">
 
       <div className="absolute -right-14 top-36">

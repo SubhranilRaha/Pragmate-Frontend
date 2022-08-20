@@ -6,19 +6,21 @@ import Partners from './Components/Partners/Partner'
 import MobNav from './Components/Nav/bottomobnav'
 import TopNav from './Components/Nav/dashtopnav'
 import HomeNav from './Components/Nav/homenav'
+import Login from './Components/LogIn/Login'
 
 
 
 function App() {
   return (
-    <div>
-     <HomeNav/>
+    <div >
+      <HomeNav/>
+      {/* <Login/> */}
       {/* <TopNav/> */}
-      <Home/>
+      {/* <Home/>
       <Partners/>
       <Contact/>
-      <Footer/>
-      {/* <MobNav/> */}
+      <Footer/> */}
+      <MobNav/>
     </div>
   )
 }
