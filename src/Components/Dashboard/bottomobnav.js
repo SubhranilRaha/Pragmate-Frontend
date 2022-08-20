@@ -1,6 +1,6 @@
 import React from 'react'
-
-  
+ 
+   
 function Mobnav() {
     const list= document.querySelectorAll('.list');
     function activeLink(){
