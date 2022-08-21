@@ -14,8 +14,8 @@ function topnav() {
                     </div>
                     </a>           
             <div className='flex flex-row items-center p-2 text-2xl'>
-                <i class="hidden lg:block md:block uil uil-moon mr-2 text-3xl"></i>
-                <i class="hidden lg:block md:block uil uil-user-circle mr-2 text-3xl"></i>  
+                <i className="hidden lg:block md:block uil uil-moon mr-2 text-3xl"></i>
+                <i className="hidden lg:block md:block uil uil-user-circle mr-2 text-3xl"></i>  
             </div>
         </div>
     </div>

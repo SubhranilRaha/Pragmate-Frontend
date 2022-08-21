@@ -30,7 +30,7 @@ export default function Login() {
 
   return (
    
-         <div className="min-w- sm:px-0 h-screen bg-gradient-to-r from-orange-500 to-yellow-500 pt-10 flex flex-col lg:pt-20 lg:pl-10 flex flex-col items-center">
+         <div className="min-w- sm:px-0 h-screen bg-gradient-to-r from-orange-500 to-yellow-500 pt-10 flex flex-col lg:pt-20 lg:pl-10  items-center">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-orange-900/20 p-1 mb-5 mx-2 w-96">
           {Object.keys(categories).map((category) => (
@@ -76,7 +76,7 @@ export default function Login() {
                               <div class="flex justify-end">
                                   <a href="#" class="text-sm text-orange-600 hover:text-orange-700 hover:underline mb-6">Forgot your password?</a>
                               </div>
-                              <button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit"><Link to="/student">Log In</Link></button>
+                              <button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="button"><Link to={'/'+post.title+'_D'}>Log In</Link></button>
                           </form>
                       </section>
                   </main>

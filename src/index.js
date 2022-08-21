@@ -15,8 +15,8 @@ const wrapper = (
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="/login" element={<Login />} />
-      		<Route path="/student" element={<Student_D />} />
-      		<Route path="/teacher" element={<Teacher_D />} />
+      		<Route path="/Student_D" element={<Student_D />} />
+      		<Route path="/Teacher_D" element={<Teacher_D />} />
 		</Routes>
 	</BrowserRouter>
 );
