@@ -25,6 +25,9 @@ module.exports = {
       },
       fontWeight:{
         'cus':'790'
+      },
+      height: {
+        '128': '40rem',
       }
     },
   },

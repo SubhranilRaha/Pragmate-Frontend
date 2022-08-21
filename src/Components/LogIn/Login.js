@@ -30,9 +30,9 @@ export default function Login() {
 
   return (
    
-         <div className="w-full max-w-md sm:px-0 h-screen bg-gradient-to-r from-orange-500 to-yellow-500 pt-5">
+         <div className="min-w- sm:px-0 h-screen bg-gradient-to-r from-orange-500 to-yellow-500 pt-10 flex flex-col lg:pt-20 lg:pl-10 flex flex-col items-center">
       <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xl bg-orange-900/20 p-1 mb-5 mx-2 ">
+        <Tab.List className="flex space-x-1 rounded-xl bg-orange-900/20 p-1 mb-5 mx-2 w-96">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -50,14 +50,14 @@ export default function Login() {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels className="mt-2">
+        <Tab.Panels className="mt-2 w-96">
           {Object.values(categories).map((posts, idx) => (
             <Tab.Panel
               key={idx}
             >
               <div>
                 {posts.map((post) => (
-                  <main class="bg-white max-w-lg mx-auto p-8 md:p-12 mx-5 rounded-lg shadow-2xl">
+                  <main class="bg-white max-w-lg p-8 md:p-12 mx-5 rounded-lg shadow-2xl">
                   <section>
                           <h3 class="font-bold text-2xl">WELCOME</h3>
                           <p class="text-gray-600 pt-2">Log in to your <span className="font-bold">{post.title}</span> account.</p>
@@ -86,7 +86,7 @@ export default function Login() {
           ))}
         </Tab.Panels>
       </Tab.Group>
-      <div class="max-w-lg mx-auto text-center mt-6 mb-6">
+      <div class="max-w-lg text-center mt-6 mb-6">
         <p class="text-white">Don't have an account? <a href="#" class="font-bold hover:underline">Sign up</a>.</p>
     </div>
     </div>

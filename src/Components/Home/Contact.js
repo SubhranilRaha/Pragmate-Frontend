@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div id='Contact'>
+    <div id='contact'>
  <section class="text-gray-600 body-font relative ">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
@@ -30,7 +30,7 @@ function Contact() {
           </div>
         </div>
         <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+          <button class="flex mx-auto text-white bg-orange-600 py-2 px-8 hover:bg-orange-500 rounded-xl text-lg">Button</button>
         </div>
       </div>
     </div>

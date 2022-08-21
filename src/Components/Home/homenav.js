@@ -28,16 +28,16 @@ function Homenav() {
                     show?<ul className='flex flex-col justify-center pb-6 text-xl shadow-lg border-y-8 pl-14 font-pops'>
                     <li className="py-3 pt-5 hover:text-first">
                         <i class="uil uil-estate pr-2"></i>
-                        <a href="#" className="">HOME</a></li>
+                        <a href="#" onClick={()=>setShow(false)} className="">HOME</a></li>
                     <li className="py-3 hover:text-first">
                         <i class="uil uil-chart pr-2"></i>
-                        <a href="#" className="">ABOUT</a></li>
+                        <a href="#about" onClick={()=>setShow(false)} className="">ABOUT</a></li>
                     <li className="py-3 hover:text-first">
                         <i class="uil uil-users-alt pr-2"></i>
-                        <a href="#" className="">PARTNERS</a></li>
+                        <a href="#partners" onClick={()=>setShow(false)} className="">PARTNERS</a></li>
                     <li className="py-3 hover:text-first">
                         <i class="uil uil-envelope pr-2"></i>
-                        <a href="#" className="">CONTACT</a></li>
+                        <a href="#contact" onClick={()=>setShow(false)} className="">CONTACT</a></li>
                     <div className='flex flex-row pt-5 justify-betweem'>
                         <div className="hover:text-orange-500">
                         <button className="flex justify-center w-32 py-1 mb-3 mr-5 border-2 hover:border-first rounded-xl group active:scale-95"><Link to="/login" className="text-base font-semibold text-slate-400 group-hover:text-orange-500">LOG IN</Link></button>
@@ -69,21 +69,21 @@ function Homenav() {
                         <a href="#" className="">HOME</a></li>
                     <li className="p-3 hover:text-first">
                         <i class="uil uil-chart pr-2"></i>
-                        <a href="#" className="">ABOUT</a></li>
+                        <a href="#about" className="">ABOUT</a></li>
                     <li className="px-2 py-3 hover:text-first">
                         <i class="uil uil-users-alt pr-2"></i>
-                        <a href="#" className="">PARTNERS</a></li>
+                        <a href="#partners" className="">PARTNERS</a></li>
                     <li className="p-3 hover:text-first">
                         <i class="uil uil-envelope pr-2"></i>
-                        <a href="#" className="">CONTACT</a></li>
+                        <a href="#contact" className="">CONTACT</a></li>
                     
                 </ul>
                 <div className='flex flex-row justify-betweem'>
                         <div className="hover:text-orange-500">
-                        <li className="flex justify-center w-32 py-1 mt-2 mr-5 border-2 active:scale-95 hover:border-first rounded-3xl group"><a href="#" className="text-base font-semibold text-slate-400 group-hover:text-orange-500 ">LOG IN</a></li>
+                        <button className="flex justify-center w-32 py-1 mt-2 mr-5 border-2 active:scale-95 hover:border-first rounded-xl group"><Link to="/login" className="text-base font-semibold text-slate-400 group-hover:text-orange-500">LOG IN</Link></button>
                         </div>
                         
-                        <li className="flex items-center justify-center w-32 py-1 mt-2 mr-2 active:scale-95 h-9 rounded-3xl hover:text-first bg-first hover:bg-orange-500"><a href="#" className="text-base font-semibold text-white ">SIGN IN</a></li>
+                        <li className="flex items-center justify-center w-32 py-1 mt-2 mr-2 active:scale-95 h-9 rounded-xl hover:text-first bg-first hover:bg-orange-500"><a href="#" className="text-base font-semibold text-white">SIGN IN</a></li>
                     </div> 
             </div>
         </nav>

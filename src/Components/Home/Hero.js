@@ -4,9 +4,8 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 function Home() {
 
   return (
-    <div className='min-h-screen w-96 absolute translate-y-20'>
+    <div className='h-128 relative min-w-fit md:mx-10'>
       <div className="flex items-center justify-center ">
-
       <div className="absolute -right-14 top-36">
         <a href="" className='flex flex-row items-end rotate-90 '>
           <span className="text-3xl font-bold -translate-y-2 text-slate-300">LEARN MORE</span>
@@ -32,7 +31,6 @@ function Home() {
 >
 </Player>
       </div>
-
     </div>
   )
 }
