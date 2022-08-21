@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../Home/logo.png'
+import icon from './logo.png'
 
 function topnav() {
   return (

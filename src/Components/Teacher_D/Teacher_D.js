@@ -1,6 +1,6 @@
 import React from 'react'
-import Bottomobnav from './bottomobnav'
-import Dashtopnav from './dashtopnav'
+import Bottomobnav from '../Dashboard_Components/Navigation/bottomobnav'
+import Dashtopnav from '../Dashboard_Components/Navigation/dashtopnav'
 
 function Teacher_D() {
   return (
